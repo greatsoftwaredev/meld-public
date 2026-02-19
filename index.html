@@ -60,14 +60,14 @@
       <div class="toggle-demo">
         <p class="demo-hint"><span>↓</span> tap the hearts to try it</p>
         <div class="toggle-phones">
-          <div class="phone" id="phone-a">
+          <div class="phone" id="phone-a" onclick="userToggle('a')">
             <div class="phone-screen">
               <div class="phone-label">You</div>
               <div class="phone-toggle-wrap">
                 <div class="toggle-ripple" id="ripple-a"></div>
-                <div class="phone-toggle on" id="toggle-a" onclick="userToggle('a')">♥</div>
+                <div class="phone-toggle off" id="toggle-a">♡</div>
               </div>
-              <div class="phone-status active" id="status-a">I'm in</div>
+              <div class="phone-status" id="status-a">Waiting...</div>
             </div>
           </div>
 
@@ -80,12 +80,12 @@
             </div>
           </div>
 
-          <div class="phone" id="phone-b">
+          <div class="phone" id="phone-b" onclick="userToggle('b')">
             <div class="phone-screen">
               <div class="phone-label">Partner</div>
               <div class="phone-toggle-wrap">
                 <div class="toggle-ripple" id="ripple-b"></div>
-                <div class="phone-toggle off" id="toggle-b" onclick="userToggle('b')">♡</div>
+                <div class="phone-toggle off" id="toggle-b">♡</div>
               </div>
               <div class="phone-status" id="status-b">Waiting...</div>
             </div>

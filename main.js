@@ -16,7 +16,7 @@
 })();
 
 /* ── TOGGLE STATE ── */
-let aOn = true;
+let aOn = false;
 let bOn = false;
 let autoDemo = true;
 let matchShown = false;
@@ -206,7 +206,6 @@ setInterval(() => {
     updateToggles(false);
   }
   if (autoCycle === 10) {
-    aOn = false;
     bOn = false;
     updateToggles(false);
     autoCycle = 0;

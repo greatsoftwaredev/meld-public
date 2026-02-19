@@ -305,6 +305,7 @@ h1 {
   position: relative;
   overflow: hidden;
   transition: transform 0.4s, box-shadow 0.4s, border-color 0.4s;
+  cursor: pointer;
 }
 
 .phone.matched {
